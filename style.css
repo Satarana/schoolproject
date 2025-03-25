@@ -47,6 +47,10 @@ body{
 
 
 }
+.welc{
+    display:flex;
+    margin-top:280px;
+}
 
 .headi{
     

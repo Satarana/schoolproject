@@ -10,13 +10,17 @@
 <div class="container">
     <div class="mains">
         <div>
-            <form class="frm" id="frm1" name="login"  method="post">
-            <p class="ye">Username: <input id="user" class="search" type="text" name="username" value="">
-            </p>
+            <form class="frm" id="usernameForm" name="login"  method="post">
+                <p class="ye" for="username">Username: 
+                <input id="username" class="search" type="text" name="username">
+                
+                </p>
 
-            
-            
-        </form>
+                <input class="submit" type="submit" name="submit" onclick="validate()">
+                
+
+            </form>
+            <p id="message" class="welc"></p>
     </div>
     <input class="submit" type="button" value="Log in" name="submit" onclick="validate()" onclick="ranking()">
     </div>

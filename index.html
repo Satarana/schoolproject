@@ -26,14 +26,17 @@
             <!-- <div class="her"><p class="users" id="usersin"></p></div> -->
             <div class="her">
 
-                <form class="frm" id="frm1" name="login"  method="post">
-                    <p class="ye">Username: <input id="user" class="search" type="text" name="username">
+                <form class="frm" id="usernameForm" name="login"  method="post">
+                    <p class="ye" for="username">Username: 
+                    <input id="username" class="search" type="text" name="username">
+                    
                     </p>
 
-                    <input class="submit" type="button" value="Log in" name="submit" onclick="validate()">
+                    <input class="submit" type="submit" name="submit" onclick="validate()">
                     
 
                 </form>
+                <p id="message" class="welc"></p>
 
             </div>
         </div>
